@@ -1,19 +1,19 @@
-/* screen - frame-20 */
+/* screen - frame-16 */
 
-.frame-20 {
+.frame-16 {
   align-items: flex-start;
   display: flex;
   min-width: 325px;
   overflow-x: hidden;
 }
 
-#overlay-frame-20 {
+#overlay-frame-16 {
   align-items: center;
   background-color: #ffffff00;
   justify-content: center;
 }
 
-.frame-20 .frame-20-1 {
+.frame-16 .frame-16-1 {
   align-items: flex-start;
   background-color: var(--black-2);
   border-radius: 15px;
@@ -21,12 +21,12 @@
   height: 449px;
   justify-content: flex-end;
   margin-left: 2371px;
-  margin-top: -716px;
+  margin-top: -1233px;
   min-width: 325px;
   padding: 27px 17px;
 }
 
-.frame-20 .henny-penny-designer {
+.frame-16 .rubik-beastly-design {
   -webkit-text-stroke: 1px var(--black);
   letter-spacing: 0;
   line-height: 64px;
@@ -34,6 +34,6 @@
   width: 288px;
 }
 
-.frame-20 .span0 {
+.frame-16 .span0 {
   line-height: 70.4px;
 }

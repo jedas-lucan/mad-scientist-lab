@@ -1,13 +1,13 @@
-/* screen - download */
+/* screen - performance */
 
-.download {
+.performance {
   align-items: flex-start;
   background-color: var(--white);
   display: flex;
   width: 1280px;
 }
 
-.download .overlap-group1 {
+.performance .overlap-group1 {
   background-image: url(../img/back-3.png);
   background-size: 100% 100%;
   height: 720px;
@@ -16,7 +16,7 @@
   z-index: 1;
 }
 
-.download .rectangle-2 {
+.performance .rectangle-2 {
   background-color: var(--black-3);
   height: 720px;
   left: 0;
@@ -25,32 +25,7 @@
   width: 1280px;
 }
 
-.download .the-right-way-of-madness-5 {
-  color: var(--white);
-  font-family: var(--font-family-butcherman_caps-regular);
-  font-size: 45px;
-  font-weight: 400;
-  left: 802px;
-  line-height: 72.0px;
-  top: 373px;
-  width: 478px;
-}
-
-.download .the-right-way-of-madness-6 {
-  left: 815px;
-  line-height: 64.5px;
-  top: 213px;
-  width: 452px;
-}
-
-.download .the-right-way-of-madness-7 {
-  left: 0;
-  line-height: normal;
-  top: 534px;
-  width: 452px;
-}
-
-.download .home {
+.performance .home {
   align-items: flex-start;
   cursor: pointer;
   display: flex;
@@ -62,7 +37,7 @@
   z-index: 2;
 }
 
-.download .overlap-group {
+.performance .overlap-group {
   align-items: flex-start;
   background-image: url(../img/pngegg-1-1@2x.png);
   background-position: 50% 50%;

@@ -1,0 +1,42 @@
+/* screen - frame-8 */
+
+.frame-8 {
+  align-items: flex-start;
+  background-color: var(--black-2);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 86px;
+  height: 557px;
+  overflow: hidden;
+  padding: 0 8px;
+  width: 365px;
+}
+
+.frame-8 .overlap-group {
+  height: 93px;
+  margin-top: 11px;
+  position: relative;
+  width: 317px;
+}
+
+.frame-8 .title {
+  -webkit-text-stroke: 1px var(--black);
+  left: 45px;
+  letter-spacing: 0;
+  line-height: 41px;
+  position: absolute;
+  text-align: center;
+  top: 17px;
+  width: 272px;
+}
+
+.frame-8 .text-6 {
+  -webkit-text-stroke: 1px var(--black);
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: 35px;
+  margin-right: 4px;
+  min-height: 409px;
+  width: 328px;
+}

@@ -15,7 +15,7 @@
 
 .frame-18 .frame-18-1 {
   align-items: flex-start;
-  background-color: #000000bf;
+  background-color: var(--black-2);
   border-radius: 15px;
   display: flex;
   height: 449px;
@@ -28,12 +28,12 @@
 
 .frame-18 .unlock-designer-den {
   -webkit-text-stroke: 1px var(--black);
-  color: transparent;
-  font-family: var(--font-family-gurajada);
-  font-size: var(--font-size-xxxxl);
-  font-weight: 400;
   letter-spacing: 0;
   line-height: 64px;
   min-height: 373px;
   width: 288px;
+}
+
+.frame-18 .span0 {
+  line-height: 70.4px;
 }

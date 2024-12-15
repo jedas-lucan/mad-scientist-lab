@@ -1,5 +1,5 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-@import url("https://fonts.googleapis.com/css?family=Gurajada:400|Fredericka+the+Great:400|Freckle+Face:400|Fontdiner+Swanky:400|Homemade+Apple:400|Frijole:400|Jim+Nightshade:400|Kirang+Haerang:400|Just+Me+Again+Down+Here:400|Kablammo:400|Rock+3D:400|Jersey+10:400|Jaro:400|Noto+Sans:600|Irish+Grover:400|Metal+Mania:400|Rubik+Beastly:400|Griffy:400|Eater:400|Henny+Penny:400|Unlock:400");
+@import url("https://fonts.googleapis.com/css?family=Gurajada:400|Fredericka+the+Great:400|Freckle+Face:400|Fontdiner+Swanky:400|Homemade+Apple:400|Frijole:400|Jim+Nightshade:400|Kirang+Haerang:400|Just+Me+Again+Down+Here:400|Kablammo:400|Rock+3D:400|Jersey+10:400|Jaro:400|Irish+Grover:400|Metal+Mania:400|Rubik+Beastly:400|Griffy:400|Eater:400|Henny+Penny:400|Unlock:400|Noto+Sans:600");
 /* The following line is used to measure usage of this code. You can remove it if you want. */
 @import url("https://px.animaapp.com/65fbf224b354d0c44be6a468.65fbf225b354d0c44be6a46b.jvbmbwN.hcp.png");
 
@@ -61,41 +61,16 @@
   }
 }
 
-.align-self-flex-end {
-  align-self: flex-end;
-}
-
 * {
   box-sizing: border-box;
 }
 
-.span0 {
-  color: #981f1b;
-  line-height: 70.4px;
-}
-
 .span1 {
-  color: var(--white);
-  font-size: 32px;
   line-height: 35.2px;
 }
 
 .span2 {
-  color: var(--white);
-  font-size: var(--font-size-s);
   line-height: 32.4px;
-}
-
-.home {
-  align-items: flex-start;
-  cursor: pointer;
-  display: flex;
-  height: 121px;
-  left: 1140px;
-  min-width: 123px;
-  position: fixed;
-  top: 599px;
-  z-index: 2;
 }
 
 .home-1 {
@@ -103,9 +78,77 @@
   width: 47px;
 }
 
-.link {
-  background-color: var(--melon);
+.rectangle-6 {
+  background-color: var(--black);
+  height: 539px;
+  left: 132px;
+  position: absolute;
+  top: 91px;
+  width: 1017px;
+}
+
+.the-right-way-of-madness {
   cursor: pointer;
-  height: 859px;
-  width: 605px;
+  left: 842px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 52px;
+  transform: rotate(-0.05deg);
+  width: 398px;
+}
+
+.the-right-way-of-madness-1 {
+  left: 21px;
+  line-height: normal;
+  top: 48px;
+  width: 398px;
+}
+
+.the-right-way-of-madness-2 {
+  left: 12px;
+  line-height: 55.7px;
+  top: 213px;
+  width: 416px;
+}
+
+.the-right-way-of-madness-3 {
+  left: 21px;
+  line-height: normal;
+  top: 373px;
+  width: 398px;
+}
+
+.the-right-way-of-madness-4 {
+  left: 832px;
+  line-height: 56.0px;
+  top: 534px;
+  width: 417px;
+}
+
+.pngegg-1 {
+  cursor: pointer;
+  height: 75px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 75px;
+}
+
+.x {
+  height: 16px;
+  left: 30px;
+  position: absolute;
+  top: 28px;
+  width: 14px;
+}
+
+.the-right-way-of-madness-8 {
+  cursor: pointer;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  transform: rotate(-0.05deg);
 }

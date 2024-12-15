@@ -1,39 +1,39 @@
-/* screen - frame-20 */
+/* screen - frame-21 */
 
-.frame-20 {
+.frame-21 {
   align-items: flex-start;
   display: flex;
   min-width: 325px;
   overflow-x: hidden;
 }
 
-#overlay-frame-20 {
+#overlay-frame-21 {
   align-items: center;
   background-color: #ffffff00;
   justify-content: center;
 }
 
-.frame-20 .frame-20-1 {
+.frame-21 .frame-21-1 {
   align-items: flex-start;
   background-color: var(--black-2);
   border-radius: 15px;
   display: flex;
   height: 449px;
   justify-content: flex-end;
-  margin-left: 2371px;
+  margin-left: 2742px;
   margin-top: -716px;
   min-width: 325px;
-  padding: 27px 17px;
+  padding: 27px 10px;
 }
 
-.frame-20 .henny-penny-designer {
+.frame-21 .butcherman-caps-desi {
   -webkit-text-stroke: 1px var(--black);
   letter-spacing: 0;
   line-height: 64px;
   min-height: 373px;
-  width: 288px;
+  width: 295px;
 }
 
-.frame-20 .span0 {
-  line-height: 70.4px;
+.frame-21 .span0 {
+  line-height: 44.2px;
 }

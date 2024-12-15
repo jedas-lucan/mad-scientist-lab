@@ -16,7 +16,8 @@
   z-index: 1;
 }
 
-.logo-type .back {
+.logo-type .rectangle-2 {
+  background-color: #000000e3;
   height: 720px;
   left: 123px;
   position: absolute;
@@ -24,8 +25,7 @@
   width: 1280px;
 }
 
-.logo-type .rectangle-2 {
-  background-color: #000000e3;
+.logo-type .back {
   height: 720px;
   left: 123px;
   position: absolute;
@@ -279,7 +279,7 @@
   -webkit-text-stroke: 1px #9b5b1c;
   color: var(--black);
   font-family: var(--font-family-just_me_again_down_here);
-  font-size: 40px;
+  font-size: var(--font-size-xxl);
   font-weight: 400;
   left: 5px;
   letter-spacing: 0;
@@ -736,7 +736,7 @@
   -webkit-text-stroke: 0.5px var(--black);
   color: var(--white);
   font-family: var(--font-family-kablammo);
-  font-size: 40px;
+  font-size: var(--font-size-xxl);
   font-weight: 400;
   left: 0;
   letter-spacing: 0;
@@ -868,6 +868,18 @@
 .logo-type .kisspng-exclamation-8 {
   left: 606px;
   top: 7582px;
+}
+
+.logo-type .home {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 121px;
+  left: 1140px;
+  min-width: 123px;
+  position: fixed;
+  top: 599px;
+  z-index: 2;
 }
 
 .logo-type .overlap-group23 {

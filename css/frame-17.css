@@ -1,32 +1,32 @@
-/* screen - frame-20 */
+/* screen - frame-17 */
 
-.frame-20 {
+.frame-17 {
   align-items: flex-start;
   display: flex;
   min-width: 325px;
   overflow-x: hidden;
 }
 
-#overlay-frame-20 {
+#overlay-frame-17 {
   align-items: center;
   background-color: #ffffff00;
   justify-content: center;
 }
 
-.frame-20 .frame-20-1 {
+.frame-17 .frame-17-1 {
   align-items: flex-start;
   background-color: var(--black-2);
   border-radius: 15px;
   display: flex;
   height: 449px;
   justify-content: flex-end;
-  margin-left: 2371px;
-  margin-top: -716px;
+  margin-left: 2742px;
+  margin-top: -1233px;
   min-width: 325px;
   padding: 27px 17px;
 }
 
-.frame-20 .henny-penny-designer {
+.frame-17 .griffy-designer-ne {
   -webkit-text-stroke: 1px var(--black);
   letter-spacing: 0;
   line-height: 64px;
@@ -34,6 +34,6 @@
   width: 288px;
 }
 
-.frame-20 .span0 {
+.frame-17 .span0 {
   line-height: 70.4px;
 }
