@@ -1,0 +1,42 @@
+/* screen - artbook6 */
+
+.artbook6 {
+  align-items: flex-start;
+  background-color: var(--dark-burgundy);
+  display: flex;
+  height: 1040px;
+  overflow: hidden;
+  width: 1728px;
+}
+
+.artbook6 .overlap-group {
+  background-image: url(../img/rectangle-4.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  gap: 132px;
+  height: 1117px;
+  min-width: 1728px;
+  padding: 75.5px 35px;
+}
+
+.artbook6 .vector {
+  align-self: flex-end;
+  cursor: pointer;
+  height: 62px;
+  margin-bottom: 37.81px;
+  width: 64px;
+}
+
+.artbook6 .overlap-group1 {
+  background-image: url(../img/rectangle-5-2.png);
+  background-size: 100% 100%;
+  gap: 11px;
+  height: 918px;
+  min-width: 1281px;
+  padding: 14.5px 21.5px;
+}
+
+.artbook6 .overlap {
+  align-items: flex-start;
+  display: flex;
+}

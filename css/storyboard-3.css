@@ -1,0 +1,52 @@
+/* screen - storyboard-3 */
+
+.storyboard-3 {
+  align-items: flex-start;
+  background-color: var(--black);
+  display: flex;
+  height: 1040px;
+  padding: 28.7px 35px;
+  width: 1728px;
+}
+
+.storyboard-3 .overlap-group {
+  height: 907px;
+  margin-top: 75.26px;
+  position: relative;
+  width: 1621px;
+}
+
+.storyboard-3 .rectangle-6 {
+  height: 907px;
+  left: 38px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1583px;
+}
+
+.storyboard-3 .vector {
+  cursor: pointer;
+  height: 40px;
+  left: 777px;
+  position: absolute;
+  top: 857px;
+  width: 40px;
+}
+
+.storyboard-3 .vector-1 {
+  height: 40px;
+  left: 842px;
+  position: absolute;
+  top: 857px;
+  width: 40px;
+}
+
+.storyboard-3 .vector-2 {
+  cursor: pointer;
+  height: 62px;
+  left: 0;
+  position: absolute;
+  top: 838px;
+  width: 64px;
+}

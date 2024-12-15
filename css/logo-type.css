@@ -1,0 +1,894 @@
+/* screen - logo-type */
+
+.logo-type {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  overflow: hidden;
+  width: 1280px;
+}
+
+.logo-type .overlap-group24 {
+  height: 16458px;
+  margin-left: -123px;
+  position: relative;
+  width: 1590px;
+  z-index: 1;
+}
+
+.logo-type .back {
+  height: 720px;
+  left: 123px;
+  position: absolute;
+  top: 0;
+  width: 1280px;
+}
+
+.logo-type .rectangle-2 {
+  background-color: #000000e3;
+  height: 720px;
+  left: 123px;
+  position: absolute;
+  top: 0;
+  width: 1280px;
+}
+
+.logo-type .group-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  left: 0;
+  min-height: 16429px;
+  position: absolute;
+  top: 29px;
+  width: 1590px;
+}
+
+.logo-type .flex-row {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  gap: 16px;
+  margin-right: 13.3px;
+  min-width: 1070px;
+}
+
+.logo-type .image-12 {
+  height: 855px;
+  object-fit: cover;
+  width: 640px;
+}
+
+.logo-type .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-bottom: 75.22px;
+  min-height: 632px;
+  width: 413px;
+}
+
+.logo-type .image-22 {
+  align-self: flex-end;
+  height: 400px;
+  object-fit: cover;
+  width: 269px;
+}
+
+.logo-type .to-know-all-one-must-risk-all {
+  -webkit-text-stroke: 1px var(--black);
+  color: #f6708d;
+  font-family: var(--font-family-homemade_apple);
+  font-size: var(--font-size-xxxl);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 184px;
+  text-align: center;
+  width: 389px;
+}
+
+.logo-type .flex-col-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 15549px;
+  width: 1568px;
+}
+
+.logo-type .overlap-group11 {
+  height: 2327px;
+  position: relative;
+  width: 1568px;
+}
+
+.logo-type .overlap-group18 {
+  height: 897px;
+  left: 181px;
+  position: absolute;
+  top: 0;
+  width: 1387px;
+}
+
+.logo-type .image-2 {
+  height: 371px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 56px;
+  width: 528px;
+}
+
+.logo-type .overlap-group9 {
+  height: 897px;
+  left: 453px;
+  position: absolute;
+  top: 0;
+  width: 934px;
+}
+
+.logo-type .image-18 {
+  height: 289px;
+  left: 163px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 430px;
+}
+
+.logo-type .image-4 {
+  height: 369px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 507px;
+  width: 555px;
+}
+
+.logo-type .cluster-8-1 {
+  height: 726px;
+  left: 334px;
+  object-fit: cover;
+  position: absolute;
+  top: 171px;
+  width: 600px;
+}
+
+.logo-type .image-6 {
+  height: 281px;
+  left: 169px;
+  object-fit: cover;
+  position: absolute;
+  top: 692px;
+  width: 418px;
+}
+
+.logo-type .overlap-group17 {
+  height: 1423px;
+  left: 0;
+  position: absolute;
+  top: 904px;
+  width: 1403px;
+}
+
+.logo-type .overlap-group5 {
+  height: 1282px;
+  left: 0;
+  position: absolute;
+  top: 141px;
+  width: 1109px;
+}
+
+.logo-type .image-14 {
+  height: 907px;
+  left: 411px;
+  object-fit: cover;
+  position: absolute;
+  top: 375px;
+  width: 698px;
+}
+
+.logo-type .cluster-3-1 {
+  height: 726px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 90px;
+  width: 600px;
+}
+
+.logo-type .every-flaw-is-just-a {
+  -webkit-text-stroke: 1px var(--black);
+  color: #ffd698;
+  font-family: var(--font-family-kirang_haerang);
+  font-size: var(--font-size-xxxl);
+  font-weight: 400;
+  left: 368px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 546px;
+}
+
+.logo-type .image-7 {
+  height: 488px;
+  left: 915px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 488px;
+}
+
+.logo-type .overlap-group13 {
+  height: 1426px;
+  margin-right: 25.0px;
+  margin-top: 79px;
+  position: relative;
+  width: 1223px;
+}
+
+.logo-type .overlap-group3 {
+  height: 1426px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1199px;
+}
+
+.logo-type .image-10 {
+  height: 444px;
+  left: 21px;
+  object-fit: cover;
+  position: absolute;
+  top: 982px;
+  width: 666px;
+}
+
+.logo-type .image-13 {
+  height: 878px;
+  left: 571px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 628px;
+}
+
+.logo-type .image-32 {
+  height: 350px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 472px;
+}
+
+.logo-type .cluster-10-1 {
+  height: 726px;
+  left: 113px;
+  object-fit: cover;
+  position: absolute;
+  top: 256px;
+  width: 600px;
+}
+
+.logo-type .if-sleep-is-for-the {
+  -webkit-text-stroke: 1px #9b5b1c;
+  color: var(--black);
+  font-family: var(--font-family-just_me_again_down_here);
+  font-size: 40px;
+  font-weight: 400;
+  left: 5px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 613px;
+  width: 242px;
+}
+
+.logo-type .the-future-does-not {
+  color: var(--black);
+  font-family: var(--font-family-fredericka_the_great);
+  font-size: 96px;
+  font-weight: 400;
+  left: 731px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 1064px;
+  width: 492px;
+}
+
+.logo-type .overlap-group12 {
+  align-self: flex-start;
+  height: 1495px;
+  margin-left: 49px;
+  margin-top: 33px;
+  position: relative;
+  width: 1353px;
+}
+
+.logo-type .overlap-group19 {
+  height: 1445px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1353px;
+}
+
+.logo-type .overlap-group10 {
+  height: 1000px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1310px;
+}
+
+.logo-type .image-9 {
+  height: 512px;
+  left: 300px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 512px;
+}
+
+.logo-type .image-21 {
+  height: 351px;
+  left: 525px;
+  object-fit: cover;
+  position: absolute;
+  top: 590px;
+  width: 785px;
+}
+
+.logo-type .cluster-7-1 {
+  height: 726px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 273px;
+  width: 600px;
+}
+
+.logo-type .image-34 {
+  height: 480px;
+  left: 662px;
+  object-fit: cover;
+  position: absolute;
+  top: 965px;
+  width: 691px;
+}
+
+.logo-type .image-27 {
+  height: 335px;
+  left: 74px;
+  position: absolute;
+  top: 1160px;
+  width: 570px;
+}
+
+.logo-type .overlap-group15 {
+  height: 4382px;
+  margin-left: 12.0px;
+  margin-top: 26px;
+  position: relative;
+  width: 1448px;
+}
+
+.logo-type .overlap-group4 {
+  height: 2254px;
+  left: 246px;
+  position: absolute;
+  top: 0;
+  width: 1110px;
+}
+
+.logo-type .image-16 {
+  height: 1104px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 875px;
+}
+
+.logo-type .image-20 {
+  height: 368px;
+  left: 372px;
+  position: absolute;
+  top: 1401px;
+  width: 438px;
+}
+
+.logo-type .image-19 {
+  height: 553px;
+  left: 691px;
+  position: absolute;
+  top: 1701px;
+  width: 367px;
+}
+
+.logo-type .cluster-5-1 {
+  height: 726px;
+  left: 510px;
+  object-fit: cover;
+  position: absolute;
+  top: 741px;
+  width: 600px;
+}
+
+.logo-type .theres-no-problem-a {
+  color: #c5ceff;
+  font-family: var(--font-family-rock_3d);
+  font-size: var(--font-size-xxxxl);
+  font-weight: 400;
+  left: 340px;
+  letter-spacing: 0;
+  line-height: 86.6px;
+  position: absolute;
+  text-align: right;
+  top: 1120px;
+  width: 706px;
+}
+
+.logo-type .overlap-group1 {
+  height: 1671px;
+  left: 0;
+  position: absolute;
+  top: 2222px;
+  width: 1208px;
+}
+
+.logo-type .image-8 {
+  height: 344px;
+  left: 108px;
+  object-fit: cover;
+  position: absolute;
+  top: 1327px;
+  width: 348px;
+}
+
+.logo-type .image-23 {
+  height: 987px;
+  left: 488px;
+  object-fit: cover;
+  position: absolute;
+  top: 447px;
+  width: 720px;
+}
+
+.logo-type .image-26 {
+  height: 410px;
+  left: 115px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 785px;
+}
+
+.logo-type .only-chaos-brings-creation {
+  -webkit-text-stroke: 3px #38bd01;
+  color: var(--black);
+  font-family: var(--font-family-freckle_face);
+  font-size: 96px;
+  font-weight: 400;
+  left: 93px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 804px;
+  width: 350px;
+}
+
+.logo-type .cluster-11-1 {
+  height: 656px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 174px;
+  width: 542px;
+}
+
+.logo-type .image-1 {
+  height: 213px;
+  left: 498px;
+  object-fit: cover;
+  position: absolute;
+  top: 3680px;
+  width: 350px;
+}
+
+.logo-type .overlap-group7 {
+  height: 726px;
+  left: 246px;
+  position: absolute;
+  top: 3656px;
+  width: 1202px;
+}
+
+.logo-type .image-24 {
+  height: 417px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 301px;
+  width: 740px;
+}
+
+.logo-type .cluster-6-1 {
+  height: 726px;
+  left: 602px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 600px;
+}
+
+.logo-type .image-28 {
+  height: 395px;
+  left: 507px;
+  object-fit: cover;
+  position: absolute;
+  top: 1804px;
+  width: 395px;
+}
+
+.logo-type .image-29 {
+  height: 607px;
+  left: 115px;
+  object-fit: cover;
+  position: absolute;
+  top: 1175px;
+  width: 459px;
+}
+
+.logo-type .image-5 {
+  height: 246px;
+  left: 51px;
+  object-fit: cover;
+  position: absolute;
+  top: 1867px;
+  width: 424px;
+}
+
+.logo-type .overlap-group {
+  align-self: flex-start;
+  height: 408px;
+  margin-left: 64px;
+  margin-top: 15px;
+  position: relative;
+  width: 1296px;
+}
+
+.logo-type .image-3 {
+  height: 408px;
+  left: 904px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 392px;
+}
+
+.logo-type .truth-demands-sacrifice {
+  -webkit-text-stroke: 4px var(--black);
+  color: var(--white);
+  font-family: var(--font-family-fontdiner_swanky);
+  font-size: 86px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 111px;
+  width: 956px;
+}
+
+.logo-type .image-17 {
+  height: 312px;
+  margin-left: 260.93px;
+  margin-top: 33px;
+  width: 785px;
+}
+
+.logo-type .overlap-group16 {
+  align-self: flex-start;
+  height: 1725px;
+  margin-left: 12px;
+  margin-top: 65px;
+  position: relative;
+  width: 1358px;
+}
+
+.logo-type .overlap-group22 {
+  height: 1579px;
+  left: 0;
+  position: absolute;
+  top: 146px;
+  width: 1358px;
+}
+
+.logo-type .image-33 {
+  height: 797px;
+  left: 622px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 736px;
+}
+
+.logo-type .overlap-group8 {
+  height: 1113px;
+  left: 0;
+  position: absolute;
+  top: 466px;
+  width: 1321px;
+}
+
+.logo-type .x2024-12-02-121844 {
+  height: 611px;
+  left: 189px;
+  position: absolute;
+  top: 502px;
+}
+
+.logo-type .cluster-4-1 {
+  height: 726px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 600px;
+}
+
+.logo-type .beyond-the-boundaries-of-normality {
+  -webkit-text-stroke: 1px var(--black);
+  color: var(--white);
+  font-family: var(--font-family-jim_nightshade);
+  font-size: var(--font-size-xxxxl);
+  font-weight: 400;
+  left: 548px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 376px;
+  width: 744px;
+}
+
+.logo-type .image-15 {
+  height: 576px;
+  left: 98px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 463px;
+}
+
+.logo-type .x2024-12-02-121918 {
+  height: 634px;
+  margin-right: 34.0px;
+}
+
+.logo-type .overlap-group14 {
+  height: 1569px;
+  margin-right: 66.0px;
+  position: relative;
+  width: 1256px;
+}
+
+.logo-type .overlap-group21 {
+  height: 1569px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1256px;
+}
+
+.logo-type .overlap-group20 {
+  height: 1118px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1256px;
+}
+
+.logo-type .image-11 {
+  height: 387px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 731px;
+  width: 623px;
+}
+
+.logo-type .overlap-group6 {
+  height: 936px;
+  left: 22px;
+  position: absolute;
+  top: 0;
+  width: 1234px;
+}
+
+.logo-type .x2024-12-02-121953 {
+  height: 650px;
+  left: 56px;
+  position: absolute;
+  top: 0;
+}
+
+.logo-type .cluster-9-1 {
+  height: 550px;
+  left: 780px;
+  object-fit: cover;
+  position: absolute;
+  top: 386px;
+  width: 455px;
+}
+
+.logo-type .speed-isnt-just-a-n {
+  -webkit-text-stroke: 0.5px var(--black);
+  color: var(--white);
+  font-family: var(--font-family-kablammo);
+  font-size: 40px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 660px;
+  white-space: nowrap;
+  width: 877px;
+}
+
+.logo-type .image-31 {
+  height: 633px;
+  left: 648px;
+  object-fit: cover;
+  position: absolute;
+  top: 936px;
+  width: 562px;
+}
+
+.logo-type .progress-requires-fire-and-ruin {
+  -webkit-text-stroke: 1px #e10000;
+  color: var(--black);
+  font-family: var(--font-family-frijole);
+  font-size: 86px;
+  font-weight: 400;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 1161px;
+  width: 598px;
+}
+
+.logo-type .overlap-group2 {
+  height: 951px;
+  margin-left: 109.0px;
+  margin-top: 69px;
+  position: relative;
+  width: 1309px;
+}
+
+.logo-type .image-25 {
+  height: 744px;
+  left: 39px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 701px;
+}
+
+.logo-type .cluster-2-1 {
+  height: 463px;
+  left: 926px;
+  object-fit: cover;
+  position: absolute;
+  top: 488px;
+  width: 383px;
+}
+
+.logo-type .cluster-12 {
+  height: 726px;
+  left: 544px;
+  object-fit: cover;
+  position: absolute;
+  top: 200px;
+  width: 600px;
+}
+
+.logo-type .just-let-me-know-whe {
+  -webkit-text-stroke: 1px #fd38cc;
+  color: var(--black);
+  font-family: var(--font-family-jersey_10);
+  font-size: var(--font-size-xxxxl);
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 791px;
+  width: 711px;
+}
+
+.logo-type .kisspng-exclamation {
+  height: 90px;
+  left: 855px;
+  object-fit: cover;
+  position: absolute;
+  top: 103px;
+  width: 93px;
+}
+
+.logo-type .kisspng-exclamation-1 {
+  left: 744px;
+  top: 10202px;
+}
+
+.logo-type .kisspng-exclamation-2 {
+  left: 155px;
+  top: 13194px;
+}
+
+.logo-type .kisspng-exclamation-3 {
+  left: 508px;
+  top: 9044px;
+}
+
+.logo-type .kisspng-exclamation-4 {
+  left: 554px;
+  top: 1828px;
+}
+
+.logo-type .kisspng-exclamation-5 {
+  left: 814px;
+  top: 5128px;
+}
+
+.logo-type .kisspng-exclamation-6 {
+  left: 540px;
+  top: 5837px;
+}
+
+.logo-type .kisspng-exclamation-7 {
+  left: 1141px;
+  top: 6387px;
+}
+
+.logo-type .kisspng-exclamation-8 {
+  left: 606px;
+  top: 7582px;
+}
+
+.logo-type .overlap-group23 {
+  align-items: flex-start;
+  background-image: url(../img/pngegg-1-1@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 121px;
+  min-width: 121px;
+  padding: 51.7px 36.7px;
+}
+
+.logo-type .kisspng-exclamation-9 {
+  height: 90px;
+  object-fit: cover;
+  position: absolute;
+  width: 93px;
+}
+
+.logo-type .x2024-12-02 {
+  object-fit: cover;
+  width: 1132px;
+}

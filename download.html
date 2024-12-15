@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
+    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <meta name="viewport" content="width=1280, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/frame-20.css" />
+    <link rel="stylesheet" type="text/css" href="css/frame-18.css" />
+    <link rel="stylesheet" type="text/css" href="css/download.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="download" />
+    <div class="container-center-horizontal">
+      <div class="download screen">
+        <div class="overlap-group1">
+          <div class="rectangle-2"></div>
+          <div class="the-right-way-of-madness">The Right Way Of<br />Madness</div>
+          <h1 class="the-right-way-of-madness-1 the-right-way-of-madness-8">The Right Way Of<br />Madness</h1>
+          <div class="the-right-way-of-madness-2 the-right-way-of-madness-8">The Right Way Of<br />Madness</div>
+          <div class="the-right-way-of-madness-3 the-right-way-of-madness-8">The Right Way Of<br />Madness</div>
+          <div class="the-right-way-of-madness-4 the-right-way-of-madness-8">The Right Way Of<br />Madness</div>
+          <div class="the-right-way-of-madness-5 the-right-way-of-madness-8">The Right Way Of<br />Madness</div>
+          <a onmouseover="ShowOverlay('frame-20', 'animate-appear');"
+            ><div class="the-right-way-of-madness-6 the-right-way-of-madness-8">The Right Way Of<br />Madness</div> </a
+          ><a onmouseover="ShowOverlay('frame-18', 'animate-appear');"
+            ><div class="the-right-way-of-madness-7 the-right-way-of-madness-8">The Right Way Of<br />Madness</div>
+          </a>
+        </div>
+        <a href="main.html">
+          <div class="home">
+            <div class="overlap-group"><img class="home-1" src="img/home.png" alt="HOME" /></div></div
+        ></a>
+      </div>
+    </div>
+    <div id="overlay-frame-18" class="overlay-base">
+      <div class="frame-18 screen">
+        <div class="frame-18-1">
+          <h1 class="unlock-designer-den">
+            <span class="span0">Unlock<br /></span
+            ><span class="span1"><br /><br />Designer :Denis Masharov<br />Year : 2011<br />Features :<br /></span
+            ><span class="span2"
+              >깔끔한 직선과 라운드된 코너의 조화.<br />잠겨진 문을 풀거나 비밀을 암시하는 듯한 디자인.<br />단순하면서도
+              과학적이고 실험적인 느낌 전달.</span
+            >
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div id="overlay-frame-20" class="overlay-base">
+      <div class="frame-20 screen">
+        <div class="frame-20-1">
+          <h1 class="henny-penny-designer">
+            <span class="span0">Henny Penny<br /></span
+            ><span class="span1"><br /><br />Designer : Brownfox<br />Year : 2011<br />Features :<br /></span
+            ><span class="span2"
+              >곡선이 강조된 굵은 글자체.<br />활기차고 다이내믹한 느낌으로 에너지를 더함.<br />다소 희극적이면서도
+              혼란스러운 감성&nbsp;&nbsp;&nbsp;&nbsp;표현.</span
+            >
+          </h1>
+        </div>
+      </div>
+    </div>
+    <script>
+      ShowOverlay = function (overlayName, animationName) {
+        overlayName = "overlay-" + overlayName;
+        var cssClasses = document.getElementById(overlayName).className.split(" ");
+        var last = cssClasses.slice(-1)[0];
+        if (last.lastIndexOf("animate") == -1) {
+          document.getElementById(overlayName).className =
+            document.getElementById(overlayName).className + " " + animationName;
+        }
+        if (window.loadAsyncSrc != undefined) {
+          loadAsyncSrc();
+        }
+      };
+
+      HideOverlay = function (overlayName, animationName) {
+        overlayName = "overlay-" + overlayName;
+        var cssClasses = document.getElementById(overlayName).className.split(" ");
+        var last = cssClasses.slice(-1)[0];
+        if (last.lastIndexOf("animate") != -1) {
+          cssClasses.splice(-1);
+          cssClasses.push(animationName);
+          document.getElementById(overlayName).className = cssClasses.join(" ");
+
+          cssClasses.splice(-1);
+          setTimeout(function () {
+            document.getElementById(overlayName).className = cssClasses.join(" ");
+          }, 1100);
+        }
+        var vids = document.getElementsByTagName("video");
+        if (vids) {
+          for (var i = 0; i < vids.length; i++) {
+            var video = vids.item(i);
+            video.pause();
+          }
+        }
+      };
+
+      closeOutsideOverlay = function (overlay_slug) {
+        var overlay_id = `overlay-${overlay_slug}`;
+        const overlayElement = document.getElementById(overlay_id);
+        overlayElement.addEventListener(
+          `click`,
+          function (event) {
+            var overlay_id = `overlay-${overlay_slug}`;
+            var e = event || window.event;
+            var overlayContainer = overlayElement.getElementsByClassName(`${overlay_slug}`);
+            if (e.target === overlayElement) {
+              HideOverlay(`${overlay_slug}`, "animate-disappear");
+            }
+          },
+          false
+        );
+      };
+
+      CloseOnOverlayClick = function (overlay_slug) {
+        var overlay_id = `overlay-${overlay_slug}`;
+        document.getElementById(overlay_id).addEventListener(
+          `click`,
+          function (event) {
+            {
+              var overlay_id = `overlay-${overlay_slug}`;
+              var e = event || window.event;
+              var overlayElement = document.getElementById(overlay_id);
+              var overlayContainer = overlayElement.getElementsByClassName(`${overlay_slug}`);
+              var clickedDiv = e.toElement || e.target;
+              var dismissButton = clickedDiv.parentElement.id == overlay_id;
+              var clickOutsideOverlay = false;
+              if (overlayContainer.length > 0) {
+                {
+                  clickOutsideOverlay = !overlayContainer[0].contains(clickedDiv) || overlayContainer[0] == clickedDiv;
+                }
+              }
+              if (dismissButton || clickOutsideOverlay) {
+                {
+                  HideOverlay(`${overlay_slug}`, "animate-disappear");
+                }
+              }
+            }
+          },
+          false
+        );
+      };
+    </script>
+  </body>
+</html>

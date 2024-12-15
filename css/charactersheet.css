@@ -1,0 +1,185 @@
+/* screen - charactersheet */
+
+.charactersheet {
+  align-items: flex-start;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  height: 4440px;
+  width: 1728px;
+}
+
+.charactersheet .overlap-group1 {
+  height: 1110px;
+  z-index: 2;
+}
+
+.charactersheet .rectangle-9 {
+  background-color: #8785d6;
+  height: 555px;
+  left: 0;
+  position: absolute;
+  top: 555px;
+  width: 1728px;
+}
+
+.charactersheet .rectangle-21 {
+  background-color: #73a38f;
+  height: 555px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1728px;
+}
+
+.charactersheet .rectangle-8 {
+  height: 520px;
+  left: 9px;
+  object-fit: cover;
+  position: absolute;
+  top: 572px;
+  width: 1711px;
+}
+
+.charactersheet .rectangle-20 {
+  height: 555px;
+  left: 63px;
+  object-fit: cover;
+  position: absolute;
+  top: 17px;
+  width: 1603px;
+}
+
+.charactersheet .vector {
+  cursor: pointer;
+  height: 62px;
+  left: 35px;
+  position: fixed;
+  top: 942px;
+  width: 64px;
+  z-index: 4;
+}
+
+.charactersheet .rectangle-7 {
+  height: 555px;
+  object-fit: cover;
+  width: 1728px;
+  z-index: 3;
+}
+
+.charactersheet .overlap-group {
+  height: 2775px;
+  z-index: 1;
+}
+
+.charactersheet .rectangle-12 {
+  background-color: #475a62;
+  height: 555px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 727px;
+}
+
+.charactersheet .rectangle-13 {
+  background-color: #99548c;
+  height: 555px;
+  left: 727px;
+  position: absolute;
+  top: 0;
+  width: 1001px;
+}
+
+.charactersheet .rectangle-15 {
+  background-color: #625f7c;
+  height: 555px;
+  left: 0;
+  position: absolute;
+  top: 555px;
+  width: 1728px;
+}
+
+.charactersheet .rectangle-17 {
+  background-color: #d45959;
+  height: 555px;
+  left: 0;
+  position: absolute;
+  top: 1110px;
+  width: 1728px;
+}
+
+.charactersheet .rectangle-18 {
+  background-color: #6393a6;
+  height: 557px;
+  left: 0;
+  position: absolute;
+  top: 1665px;
+  width: 1728px;
+}
+
+.charactersheet .rectangle-19 {
+  background-color: #6393a6;
+  height: 555px;
+  left: 0;
+  position: absolute;
+  top: 2220px;
+  width: 1728px;
+}
+
+.charactersheet .rectangle-10 {
+  height: 555px;
+  left: 67px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 617px;
+}
+
+.charactersheet .rectangle-11 {
+  height: 555px;
+  left: 815px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 864px;
+}
+
+.charactersheet .rectangle-14 {
+  height: 555px;
+  left: 247px;
+  object-fit: cover;
+  position: absolute;
+  top: 555px;
+  width: 1234px;
+}
+
+.charactersheet .rectangle-16 {
+  height: 555px;
+  left: 93px;
+  object-fit: cover;
+  position: absolute;
+  top: 1110px;
+  width: 1543px;
+}
+
+.charactersheet .img_2538 {
+  height: 555px;
+  left: 200px;
+  object-fit: cover;
+  position: absolute;
+  top: 2220px;
+  width: 1327px;
+}
+
+.charactersheet .img_2541 {
+  height: 555px;
+  left: 216px;
+  position: absolute;
+  top: 1665px;
+  width: 1297px;
+}
+
+.charactersheet .overlap {
+  position: relative;
+  width: 1728px;
+}

@@ -1,0 +1,70 @@
+:root { 
+  --black: #000000;
+  --dark-burgundy: #7c0f0f;
+  --melon: #ffb9b9bd;
+  --sweet-pink: #ff9f9f;
+  --white: #ffffff;
+ 
+  --font-size-l: 17px;
+  --font-size-m: 16px;
+  --font-size-s: 15px;
+  --font-size-xl: 20px;
+  --font-size-xxl: 25px;
+  --font-size-xxxl: 48px;
+  --font-size-xxxxl: 64px;
+ 
+  --font-family-butcherman_caps-regular: "Butcherman Caps-Regular", Helvetica;
+  --font-family-eater: "Eater", Helvetica;
+  --font-family-fontdiner_swanky: "Fontdiner Swanky", Helvetica;
+  --font-family-freckle_face: "Freckle Face", Helvetica;
+  --font-family-fredericka_the_great: "Fredericka the Great", Helvetica;
+  --font-family-frijole: "Frijole", Helvetica;
+  --font-family-griffy: "Griffy", Helvetica;
+  --font-family-gurajada: "Gurajada", Helvetica;
+  --font-family-henny_penny: "Henny Penny", Helvetica;
+  --font-family-homemade_apple: "Homemade Apple", Helvetica;
+  --font-family-inknut_antiqua-regular: "Inknut Antiqua-Regular", Helvetica;
+  --font-family-irish_grover: "Irish Grover", Helvetica;
+  --font-family-jersey_10: "Jersey 10", Helvetica;
+  --font-family-jim_nightshade: "Jim Nightshade", Helvetica;
+  --font-family-just_me_again_down_here: "Just Me Again Down Here", Helvetica;
+  --font-family-kablammo: "Kablammo", Helvetica;
+  --font-family-kirang_haerang: "Kirang Haerang", Helvetica;
+  --font-family-metal_mania: "Metal Mania", Helvetica;
+  --font-family-open_sans_condensed-lightitalic: "Open Sans Condensed-LightItalic", Helvetica;
+  --font-family-open_sans_hebrew_condensed-light: "Open Sans Hebrew Condensed-Light", Helvetica;
+  --font-family-orelega_one-regular: "Orelega One-Regular", Helvetica;
+  --font-family-rock_3d: "Rock 3D", Helvetica;
+  --font-family-rubik_beastly: "Rubik Beastly", Helvetica;
+  --font-family-unlock: "Unlock", Helvetica;
+}
+.inknutantiqua-regular-normal-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-inknut_antiqua-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inknutantiqua-regular-normal-white-16px-2 {
+  font-family: var(--font-family-inknut_antiqua-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inknutantiqua-regular-normal-sweet-pink-25px {
+  color: var(--sweet-pink);
+  font-family: var(--font-family-inknut_antiqua-regular);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.opensanshebrewcondensed-light-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-open_sans_hebrew_condensed-light);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 300;
+}

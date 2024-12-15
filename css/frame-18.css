@@ -1,0 +1,39 @@
+/* screen - frame-18 */
+
+.frame-18 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 325px;
+  overflow-x: hidden;
+}
+
+#overlay-frame-18 {
+  align-items: center;
+  background-color: #ffffff00;
+  justify-content: center;
+}
+
+.frame-18 .frame-18-1 {
+  align-items: flex-start;
+  background-color: #000000bf;
+  border-radius: 15px;
+  display: flex;
+  height: 449px;
+  justify-content: flex-end;
+  margin-left: 3113px;
+  margin-top: -1233px;
+  min-width: 325px;
+  padding: 27px 17px;
+}
+
+.frame-18 .unlock-designer-den {
+  -webkit-text-stroke: 1px var(--black);
+  color: transparent;
+  font-family: var(--font-family-gurajada);
+  font-size: var(--font-size-xxxxl);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 64px;
+  min-height: 373px;
+  width: 288px;
+}

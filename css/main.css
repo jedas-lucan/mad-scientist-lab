@@ -1,0 +1,129 @@
+/* screen - main */
+
+.main {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 720px;
+  overflow: hidden;
+  width: 1280px;
+}
+
+.main .overlap-group3 {
+  height: 874px;
+  margin-left: -11px;
+  margin-top: -1px;
+  position: relative;
+  width: 1291px;
+}
+
+.main .back {
+  height: 874px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 424px;
+}
+
+.main .back-1 {
+  height: 720px;
+  left: 11px;
+  position: absolute;
+  top: 1px;
+  width: 1280px;
+}
+
+.main .logotype {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 177px;
+  left: 165px;
+  min-width: 179px;
+  position: absolute;
+  top: 214px;
+}
+
+.main .overlap-group {
+  align-items: flex-start;
+  background-image: url(../img/pngegg-1-1@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 177px;
+  justify-content: flex-end;
+  min-width: 177px;
+  padding: 66.7px 68.4px;
+}
+
+.main .logo-type {
+  height: 38px;
+  width: 39px;
+}
+
+.main .trw {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 177px;
+  left: 165px;
+  min-width: 179px;
+  position: absolute;
+  top: 522px;
+}
+
+.main .overlap-group1 {
+  align-items: flex-start;
+  background-image: url(../img/pngegg-3-1@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 177px;
+  justify-content: flex-end;
+  min-width: 177px;
+  padding: 54.7px 51.4px;
+}
+
+.main .trw-of-madness {
+  height: 53px;
+  width: 73px;
+}
+
+.main .download {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 177px;
+  left: 165px;
+  min-width: 179px;
+  position: absolute;
+  top: 368px;
+}
+
+.main .overlap-group2 {
+  align-items: flex-start;
+  background-image: url(../img/pngegg-3-1@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 177px;
+  justify-content: flex-end;
+  min-width: 177px;
+  padding: 68.7px 69.2px;
+}
+
+.main .fontinfo {
+  height: 38px;
+  width: 39px;
+}
+
+.main .x2024-12-02-121844 {
+  cursor: pointer;
+  height: 311px;
+  left: 732px;
+  object-fit: cover;
+  position: absolute;
+  top: 333px;
+  width: 559px;
+}
