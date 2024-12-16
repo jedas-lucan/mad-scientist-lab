@@ -1,0 +1,18 @@
+/* screen - image-51 */
+
+.image-51 {
+  align-items: flex-start;
+  background-color: var(--black-2);
+  display: flex;
+  min-width: 365px;
+}
+
+.image-51 .image-51-1 {
+  background-image: url(../img/image-51.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 601px;
+  margin-left: -3381px;
+  margin-top: -2127px;
+  width: 365px;
+}

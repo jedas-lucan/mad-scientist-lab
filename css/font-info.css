@@ -7,45 +7,111 @@
   width: 1280px;
 }
 
-.font-info .overlap-group1 {
-  background-image: url(../img/back-3.png);
-  background-size: 100% 100%;
+.font-info .back {
   height: 720px;
-  position: relative;
+  left: 0;
+  position: fixed;
+  top: 0;
   width: 1280px;
   z-index: 1;
 }
 
 .font-info .rectangle-2 {
-  background-color: var(--black-3);
+  background-color: #00000059;
   height: 720px;
   left: 0;
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 1280px;
+  z-index: 2;
 }
 
-.font-info .the-right-way-of-madness-5 {
+.font-info .the-right-way-of-madness {
+  color: var(--white);
+  cursor: pointer;
+  font-family: var(--font-family-unlock);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: fixed;
+  text-align: center;
+  top: 534px;
+  transform: rotate(-0.05deg);
+  width: 452px;
+  z-index: 9;
+}
+
+.font-info .the-right-way-of-madness-1 {
+  font-family: var(--font-family-rubik_beastly);
+  font-size: var(--font-size-xs);
+  left: 12px;
+  line-height: 55.7px;
+  top: 213px;
+  width: 416px;
+  z-index: 5;
+}
+
+.font-info .the-right-way-of-madness-2 {
+  font-family: var(--font-family-metal_mania);
+  font-size: 50px;
+  left: 21px;
+  line-height: normal;
+  top: 48px;
+  width: 398px;
+  z-index: 4;
+}
+
+.font-info .the-right-way-of-madness-3 {
+  font-family: var(--font-family-griffy);
+  font-size: var(--font-size-m);
+  left: 21px;
+  line-height: normal;
+  top: 373px;
+  width: 398px;
+  z-index: 6;
+}
+
+.font-info .the-right-way-of-madness-4 {
+  font-family: var(--font-family-henny_penny);
+  font-size: var(--font-size-xs);
   left: 815px;
   line-height: 64.5px;
   top: 213px;
   width: 452px;
+  z-index: 8;
+}
+
+.font-info .the-right-way-of-madness-5 {
+  font-family: var(--font-family-eater);
+  font-size: var(--font-size-xxs);
+  left: 832px;
+  line-height: 56.0px;
+  top: 534px;
+  width: 417px;
+  z-index: 7;
 }
 
 .font-info .the-right-way-of-madness-6 {
-  left: 0;
+  font-family: var(--font-family-irish_grover);
+  font-size: var(--font-size-m);
+  left: 842px;
   line-height: normal;
-  top: 534px;
-  width: 452px;
+  top: 52px;
+  width: 398px;
+  z-index: 3;
 }
 
-.font-info .frame {
+.font-info .image-43 {
   cursor: pointer;
   height: 112px;
-  left: 853px;
-  position: absolute;
+  left: 854px;
+  object-fit: cover;
+  position: fixed;
   top: 389px;
-  width: 375px;
+  width: 374px;
+  z-index: 10;
 }
 
 .font-info .home {
@@ -57,7 +123,7 @@
   min-width: 123px;
   position: fixed;
   top: 599px;
-  z-index: 2;
+  z-index: 11;
 }
 
 .font-info .overlap-group {
@@ -72,9 +138,11 @@
 }
 
 .font-info .the-right-way-of-madness-7 {
+  color: var(--white);
   cursor: pointer;
+  font-weight: 400;
   letter-spacing: 0;
-  position: absolute;
+  position: fixed;
   text-align: center;
   transform: rotate(-0.05deg);
 }

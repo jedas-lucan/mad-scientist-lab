@@ -1,9 +1,7 @@
 /* screen - logo-type */
 
 .logo-type {
-  align-items: flex-start;
   background-color: var(--white);
-  display: flex;
   overflow: hidden;
   width: 1280px;
 }
@@ -17,16 +15,8 @@
 }
 
 .logo-type .rectangle-2 {
-  background-color: #000000e3;
-  height: 720px;
-  left: 123px;
-  position: absolute;
-  top: 0;
-  width: 1280px;
-}
-
-.logo-type .back {
-  height: 720px;
+  background-color: var(--black);
+  height: 16458px;
   left: 123px;
   position: absolute;
   top: 0;
@@ -81,7 +71,7 @@
   -webkit-text-stroke: 1px var(--black);
   color: #f6708d;
   font-family: var(--font-family-homemade_apple);
-  font-size: var(--font-size-xxxl);
+  font-size: var(--font-size-m);
   font-weight: 400;
   letter-spacing: 0;
   line-height: normal;
@@ -203,7 +193,7 @@
   -webkit-text-stroke: 1px var(--black);
   color: #ffd698;
   font-family: var(--font-family-kirang_haerang);
-  font-size: var(--font-size-xxxl);
+  font-size: var(--font-size-m);
   font-weight: 400;
   left: 368px;
   letter-spacing: 0;
@@ -279,7 +269,7 @@
   -webkit-text-stroke: 1px #9b5b1c;
   color: var(--black);
   font-family: var(--font-family-just_me_again_down_here);
-  font-size: var(--font-size-xxl);
+  font-size: var(--font-size-xxs);
   font-weight: 400;
   left: 5px;
   letter-spacing: 0;
@@ -290,9 +280,9 @@
 }
 
 .logo-type .the-future-does-not {
-  color: var(--black);
+  color: #eaeaea;
   font-family: var(--font-family-fredericka_the_great);
-  font-size: 96px;
+  font-size: var(--font-size-xxl);
   font-weight: 400;
   left: 731px;
   letter-spacing: 0;
@@ -425,7 +415,7 @@
 .logo-type .theres-no-problem-a {
   color: #c5ceff;
   font-family: var(--font-family-rock_3d);
-  font-size: var(--font-size-xxxxl);
+  font-size: var(--font-size-l);
   font-weight: 400;
   left: 340px;
   letter-spacing: 0;
@@ -475,7 +465,7 @@
   -webkit-text-stroke: 3px #38bd01;
   color: var(--black);
   font-family: var(--font-family-freckle_face);
-  font-size: 96px;
+  font-size: var(--font-size-xxl);
   font-weight: 400;
   left: 93px;
   letter-spacing: 0;
@@ -579,7 +569,7 @@
   -webkit-text-stroke: 4px var(--black);
   color: var(--white);
   font-family: var(--font-family-fontdiner_swanky);
-  font-size: 86px;
+  font-size: var(--font-size-xl);
   font-weight: 400;
   left: 0;
   letter-spacing: 0;
@@ -651,7 +641,7 @@
   -webkit-text-stroke: 1px var(--black);
   color: var(--white);
   font-family: var(--font-family-jim_nightshade);
-  font-size: var(--font-size-xxxxl);
+  font-size: var(--font-size-l);
   font-weight: 400;
   left: 548px;
   letter-spacing: 0;
@@ -736,7 +726,7 @@
   -webkit-text-stroke: 0.5px var(--black);
   color: var(--white);
   font-family: var(--font-family-kablammo);
-  font-size: var(--font-size-xxl);
+  font-size: var(--font-size-xxs);
   font-weight: 400;
   left: 0;
   letter-spacing: 0;
@@ -760,7 +750,7 @@
   -webkit-text-stroke: 1px #e10000;
   color: var(--black);
   font-family: var(--font-family-frijole);
-  font-size: 86px;
+  font-size: var(--font-size-xl);
   font-weight: 400;
   left: 21px;
   letter-spacing: 0;
@@ -810,7 +800,7 @@
   -webkit-text-stroke: 1px #fd38cc;
   color: var(--black);
   font-family: var(--font-family-jersey_10);
-  font-size: var(--font-size-xxxxl);
+  font-size: var(--font-size-l);
   font-weight: 400;
   left: 0;
   letter-spacing: 0;
@@ -822,58 +812,107 @@
 }
 
 .logo-type .kisspng-exclamation {
+  cursor: pointer;
   height: 90px;
   left: 855px;
   object-fit: cover;
   position: absolute;
   top: 103px;
+  transition: all 0.2s ease;
   width: 93px;
 }
 
+.logo-type .kisspng-exclamation:hover {
+  transform: scale(0.9); 
+}
+
 .logo-type .kisspng-exclamation-1 {
+  cursor: pointer;
+  height: 90px;
   left: 744px;
+  object-fit: cover;
+  position: absolute;
   top: 10202px;
+  transition: all 0.2s ease;
+  width: 93px;
+}
+
+.logo-type .kisspng-exclamation-1:hover {
+  transform: scale(0.9); 
 }
 
 .logo-type .kisspng-exclamation-2 {
+  cursor: pointer;
+  height: 90px;
   left: 155px;
+  object-fit: cover;
+  position: absolute;
   top: 13194px;
+  width: 93px;
 }
 
 .logo-type .kisspng-exclamation-3 {
+  cursor: pointer;
+  height: 90px;
   left: 508px;
+  object-fit: cover;
+  position: absolute;
   top: 9044px;
+  width: 93px;
 }
 
 .logo-type .kisspng-exclamation-4 {
+  cursor: pointer;
+  height: 90px;
   left: 554px;
+  object-fit: cover;
+  position: absolute;
   top: 1828px;
+  width: 93px;
 }
 
 .logo-type .kisspng-exclamation-5 {
+  cursor: pointer;
+  height: 90px;
   left: 814px;
+  object-fit: cover;
+  position: absolute;
   top: 5128px;
+  width: 93px;
 }
 
 .logo-type .kisspng-exclamation-6 {
+  cursor: pointer;
+  height: 90px;
   left: 540px;
+  object-fit: cover;
+  position: absolute;
   top: 5837px;
+  width: 93px;
 }
 
 .logo-type .kisspng-exclamation-7 {
+  cursor: pointer;
+  height: 90px;
   left: 1141px;
+  object-fit: cover;
+  position: absolute;
   top: 6387px;
+  width: 93px;
 }
 
 .logo-type .kisspng-exclamation-8 {
+  cursor: pointer;
+  height: 90px;
   left: 606px;
+  object-fit: cover;
+  position: absolute;
   top: 7582px;
+  width: 93px;
 }
 
 .logo-type .home {
-  align-items: flex-start;
   cursor: pointer;
-  display: flex;
   height: 121px;
   left: 1140px;
   min-width: 123px;
@@ -893,11 +932,9 @@
   padding: 51.7px 36.7px;
 }
 
-.logo-type .kisspng-exclamation-9 {
-  height: 90px;
-  object-fit: cover;
-  position: absolute;
-  width: 93px;
+.logo {
+  align-items: flex-start;
+  display: flex;
 }
 
 .logo-type .x2024-12-02 {

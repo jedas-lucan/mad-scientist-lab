@@ -1,0 +1,18 @@
+/* screen - image-38 */
+
+.image-38 {
+  align-items: flex-start;
+  background-color: var(--black-2);
+  display: flex;
+  min-width: 325px;
+}
+
+.image-38 .image-38-1 {
+  background-image: url(../img/image-38.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 449px;
+  margin-left: 3050px;
+  margin-top: -1212px;
+  width: 325px;
+}
