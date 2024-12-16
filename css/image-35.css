@@ -1,17 +1,17 @@
 /* screen - image-35 */
 
 .image-35 {
-  align-items: flex-start;
+  align-items: center; /* 세로 가운데 정렬 */
+  justify-content: center; /* 가로 가운데 정렬 */
   background-color: var(--black-2);
   display: flex;
-  min-width: 325px;
+  height: 100vh; /* 화면 전체 높이 */
+  width: 100%; /* 화면 전체 너비 */
 }
 
 .image-35 .image-35-1 {
   background-image: url(../img/image-35@2x.png);
-  background-size: 100% 100%;
+  background-size: cover;
   height: 449px;
-  margin-left: 1919px;
-  margin-top: -1212px;
   width: 325px;
 }
