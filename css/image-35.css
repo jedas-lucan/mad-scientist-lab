@@ -1,17 +1,46 @@
 /* screen - image-35 */
 
+:root {
+  --black-2: rgba(0, 0, 0, 0.8); /* 반투명 검정 */
+}
+
 .image-35 {
   align-items: center; /* 세로 가운데 정렬 */
   justify-content: center; /* 가로 가운데 정렬 */
-  background-color: var(--black-2);
+  background-color: var(--black-2); /* 반투명 검정 */
   display: flex;
+  position: fixed; /* 화면 고정 */
+  top: 0;
+  left: 0;
   height: 100vh; /* 화면 전체 높이 */
   width: 100%; /* 화면 전체 너비 */
+  z-index: 1000; /* 다른 요소 위에 표시 */
 }
 
 .image-35 .image-35-1 {
-  background-image: url(../img/image-35@2x.png);
+  background-image: url(../img/image-35@2x.png); /* 이미지 경로 */
   background-size: cover;
+  background-position: center; /* 이미지 가운데 정렬 */
+  border-radius: 8px; /* 모서리 둥글게 */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
   height: 449px;
   width: 325px;
+}
+
+.overlay-hidden {
+  display: none; /* 기본적으로 숨김 */
+}
+
+.overlay-visible {
+  display: flex; /* 오버레이를 표시 */
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
